@@ -33,3 +33,12 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media only screen and (max-width: 1000px)  {
+  .banner-right {
+    display: none;
+  }
+  .banner-left {
+    width: 100%;
+  }
+}

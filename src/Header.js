@@ -4,7 +4,11 @@ import './Header.css';
 const Header = () => {
   return (
     <div className='Header'>
-      {/* What goes in here? */}
+      <a href='#'>Write a story</a>
+      <h3> Material</h3>
+      <a href='#'>Sign in/Sign Up</a>
+
+      
     </div>
   )
 }

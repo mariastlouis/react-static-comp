@@ -8,7 +8,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid ghostwhite;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+
 }
 
 .stories-header a {
@@ -20,3 +22,20 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 1170px)  {
+ .Stories {
+  width: 90%;
+ }
+}
+
+@media only screen and (max-width: 910px)  {
+ .Stories {
+  width: 70%;
+ }
+ .stories-grid {
+  justify-content: center;
+ }
+
+}
+
