@@ -1,0 +1,41 @@
+.Stories {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.stories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+
+}
+
+.stories-header a {
+  text-align: right;
+}
+
+.stories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1170px)  {
+ .Stories {
+  width: 90%;
+ }
+}
+
+@media only screen and (max-width: 910px)  {
+ .Stories {
+  width: 70%;
+ }
+ .stories-grid {
+  justify-content: center;
+ }
+
+}
+
